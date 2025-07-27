@@ -1,4 +1,7 @@
 # Seungwoo Choi Portfolio
+<img width="1728" height="883" alt="image" src="https://github.com/user-attachments/assets/c06c2f0a-f292-4a97-8c58-b5f8fb6a054d" />
+<img width="1728" height="822" alt="image" src="https://github.com/user-attachments/assets/86ad3911-dba1-4ff7-8e31-c91d79c01136" />
+
 
 이 레포지토리는 **Seungwoo Choi**의 메인 포트폴리오 허브입니다.  
 개발 블로그, 토이 프로젝트, 대표 웹앱 등 다양한 작업 결과물을 한눈에 확인하고 바로 이동할 수 있도록 구성되어 있습니다.
