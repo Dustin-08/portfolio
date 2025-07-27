@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seungwoo Choi – Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="text-white font-sans bg-gradient-to-br from-slate-900 to-gray-800">
+
+  <!-- Header -->
+  <header class="nav fixed top-0 left-0 w-full z-50">
+    <div class="max-w-5xl mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-lg font-bold">Seungwoo</h1>
+      <nav class="space-x-6 text-sm text-gray-200">
+        <a href="#projects">Projects</a>
+        <a href="#blog">Blog</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="pt-32 px-4 max-w-5xl mx-auto space-y-32">
+
+    <!-- Hero -->
+    <section class="text-center">
+      <div class="glass-card p-10 max-w-xl mx-auto">
+        <h2 class="text-4xl font-bold">Hi, I'm Seungwoo 👋</h2>
+        <p class="mt-4 text-lg text-gray-300">Creative Developer & Tech Explorer</p>
+        <div class="mt-6 flex justify-center gap-4">
+          <a href="#projects" class="btn">🚀 프로젝트 보기</a>
+          <a href="#contact" class="btn-outline">📬 연락하기</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2 class="section-title">🛠 Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="glass-card">
+          <h3 class="text-xl font-semibold">🌐 My Web App</h3>
+          <p class="text-gray-300 text-sm mt-2">React 기반 실시간 트래커 웹사이트</p>
+        </div>
+        <div class="glass-card">
+          <h3 class="text-xl font-semibold">📦 Toy Project</h3>
+          <p class="text-gray-300 text-sm mt-2">Arduino 센서 기반 IoT 프로젝트</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog">
+      <h2 class="section-title">📚 Blog</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <a href="https://dustin-08.github.io/" target="_blank" class="glass-card">
+          <h3 class="text-xl font-semibold">📝 Velog 블로그</h3>
+          <p class="text-sm text-gray-300 mt-2">개발 기록, 회고, 공부 정리</p>
+        </a>
+        <a href="https://medium.com/@yourname" target="_blank" class="glass-card">
+          <h3 class="text-xl font-semibold">🧠 Medium 글</h3>
+          <p class="text-sm text-gray-300 mt-2">기술적 인사이트 & 글쓰기 실험</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <h2 class="section-title">👨‍💻 About Me</h2>
+      <div class="glass-card p-6">
+        <p class="text-lg text-gray-300">
+          저는 창의적 사고와 실행 중심의 개발자 <span class="text-white font-semibold">최승우</span>입니다.<br>
+          실시간 웹 개발, IoT 시스템, 디자인 시스템 구축에 관심이 많습니다.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2 class="section-title">📬 Contact</h2>
+      <div class="glass-card p-6">
+        <p class="text-gray-300 mb-4">문의는 언제든 환영입니다!</p>
+        <div class="flex gap-4">
+          <a href="dustin08@naver.com" class="btn">✉️ 이메일</a>
+          <a href="https://github.com/Dustin-08" target="_blank" class="btn-outline">🐱 GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="text-center py-6 text-sm text-gray-400">
+    © 2025 Seungwoo Choi. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
